@@ -36,5 +36,6 @@ function addThree() {
 function reset(){
     scoreEl.innerHTML = 0
     homeScore = 0
+    guestScore = 0
     guestScoreEl.textContent = 0 
 }
