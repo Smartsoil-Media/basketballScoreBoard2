@@ -39,6 +39,7 @@ body {
     display: inline;
     padding: 8px 8px;
     font-family: digital;
+    touch-action: manipulation;
 }
 
 #home-score, #guest-score {
