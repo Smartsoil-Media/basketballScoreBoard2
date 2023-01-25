@@ -6,6 +6,7 @@ let guestScoreEl = document.getElementById("guest-score")
 let resetEl = document.getElementById("rest-btn")
 
 let homeScore = 0
+let guestScore = 0
 
 function add1() {
     scoreEl.textContent = homeScore += 1  
@@ -20,15 +21,15 @@ function add3() {
 }
 
 function addOne() {
-    guestScoreEl.textContent = homeScore += 1  
+    guestScoreEl.textContent = guestScore += 1  
 }
 
 function addTwo() {
-    guestScoreEl.textContent = homeScore += 2
+    guestScoreEl.textContent = guestScore += 2
 }
 
 function addThree() {
-    guestScoreEl.textContent = homeScore +=3
+    guestScoreEl.textContent = guestScore +=3
 }
 
 
