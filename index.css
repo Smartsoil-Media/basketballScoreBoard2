@@ -21,6 +21,16 @@ body {
     align-items: center;
 }
 
+@media (max-width: 768px) { /* styles for screens less than 768px */
+    .container
+      {
+
+      flex-direction: column; 
+      max-height: 650px;
+    }
+  }
+  
+
 .home-score-board {
     display: flex;
     flex-direction: column;
